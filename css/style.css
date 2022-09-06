@@ -1,0 +1,73 @@
+*{
+padding: 0px;
+margin: 0px;
+}
+body{
+font-family: serif;
+font-size: 14px;
+line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+font-family: sans-serif;
+}
+a, a:hover{
+text-decoration: none;
+}
+body{
+height: 1500px;
+}
+.green{
+width: 700px;
+height: 350px;
+background: green;
+position: relative;
+}
+.red{
+width: 150px;
+height: 150px;
+background: red;
+border-radius: 50%;
+position: absolute;
+top: 28%;
+left: 37%;
+}
+.wapp{
+width: 200px;
+position: fixed;
+top: 40%;
+right: -135px;
+transition: 1s;
+}
+.fb{
+width: 200px;
+position: fixed;
+top: 50%;
+right: -135px;
+transition: 1s;
+}
+.insta{
+width: 200px;
+position: fixed;
+top: 60%;
+right: -135px;
+transition: 1s;
+}
+.utube{
+width: 200px;
+position: fixed;
+top: 70%;
+right: -135px;
+transition: 1s;
+}
+.wapp:hover{
+right: -2px;
+}
+.fb:hover{
+right: -2px;
+}
+.utube:hover{
+right: -2px;
+}
+.insta:hover{
+right: -2px;
+}
